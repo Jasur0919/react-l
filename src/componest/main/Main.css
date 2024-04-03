@@ -61,7 +61,7 @@
 /*    P R O D U C T    */
 
 .product {
-    background: rgb(250, 250, 250);
+    background: rgb(248, 247, 247);
     margin-bottom: 200px;
 }
 
@@ -107,8 +107,135 @@
 }
 
 
+.product_cards {
+    background: white;
+}
+
+.product_section {
+    padding: 30px 30px;
+}
+
+.product_section {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    gap: 220px;
+}
+
+.product_section_text {
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.product_section_text h2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.product_span {
+    color: red;
+}
+
+.product_h4 {
+    font-weight: 300px !important;
+    font-size: 22px;
+}
+
+.product_p {
+    font-size: 14px;
+    border: 2px solid black;
+    padding: 2px 8px;
+    border-radius: 6px;
+}
+
+.product_text_h4 {
+    margin-top: 20px;
+}
+
+.product_btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: black;
+    padding: 5px 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 130px;
+    opacity: 0;
+    top: 230px;
+    margin: 0 auto;
+    transition: .3s linear;
 
 
+}
 
+.product_section:hover button {
+    opacity: 100%;
+    top: 140px;
 
+}
 
+.logo_card {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_card_child {
+    width: 320px;
+    height: 332px;
+    background: rgb(248, 247, 247);
+    /* display: flex;
+    flex-direction: column;
+    gap: 13px; */
+    text-align: center;
+    position: relative;
+
+}
+
+.logo_card_child img {
+    margin-top: 20px;
+}
+
+.logo_card_child p {
+    margin: 13px 0;
+
+}
+
+.logo_card_child button {
+    color: white;
+    outline: none;
+    border: none;
+    background: black;
+    cursor: pointer;
+    padding: 5px 30px;
+    border-radius: 8px;
+    top: 335px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 130px;
+    margin: 0 auto;
+    opacity: 0;
+    transition: .3s linear;
+    overflow: hidden !important;
+
+}
+
+.logo_card_child:hover button {
+    top: 220px;
+    opacity: 100%;
+
+}
+
+.logo_card_child:hover p {
+    opacity: 0;
+}

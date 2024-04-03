@@ -58,9 +58,15 @@ footer {
 }
 
 .footer_text_input {
-    margin-top: 20px;
+    margin-top: 30px;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 14px;
 }
 
+.footer_text_input svg {
+    margin-left: 100px;
+}
 
 .footer_text_img svg {
     margin: 5px 9px;
@@ -73,6 +79,11 @@ footer {
     background: black;
 }
 
+.footer_text_input input::placeholder {
+    font-size: 17px;
+    color: rgb(229, 221, 221);
+}
+
 .micommunity img{
     width: 25px;
     height: 25px;
@@ -82,3 +93,38 @@ footer {
     background-image: none; */
 }
 
+
+/* F O O T E R   B O T */
+
+.footer_bot_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding-bottom: 40px;
+
+}
+
+.row {
+    border: 1px solid white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer_bot_box_h3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+
+.footer_bot_box svg {
+    fill: white;
+}
+
+.footer_bot_box p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

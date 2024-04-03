@@ -1,6 +1,8 @@
 import React from 'react'
 import './Main.css'
 import phoneS from '../../assents/images/hero-phone.webp'
+import Redmi13 from '../../assents/images/phone_product.webp'
+import Logochild from '../../assents/images/child-phone-product.webp'
 
  function Main() {
   return (
@@ -31,8 +33,45 @@ import phoneS from '../../assents/images/hero-phone.webp'
               <p className='product_style_h4'>Enjoy the Outdoors</p>
               <p className='product_style_h4'>Gaming Essentials</p>
             </div>
+          </div>
 
+          <div className="product_cards">
+            <div className="product_section">
+            <img src={Redmi13} alt="" />
+              <div className="product_section_text">
+                <h2 className='product_h2'>Redmi Note <span className='product_span'>13</span> <h4 className='product_h4'>Pro + </h4> <p className='product_p'>5G</p></h2>
+                <p>Xiaomi Fan Festival Special Edition</p>
+                <h4 className='product_text_h4'>Limited availability | Mystic Silver</h4>
+                <button className='product_btn'>Learn more</button>
+              </div>
+            </div>
+          </div>
 
+          <div className="logo_card">
+            <div className="logo_card_child">
+              <img src={Logochild} alt="" />
+              <h3>Redmi Note 13 5G</h3>
+              <p>Super-clear 108MP triple camera</p>
+              <button>Learn more</button>
+            </div>
+            <div className="logo_card_child">
+              <img src={Logochild} alt="" />
+              <h3>Redmi Note 13 5G</h3>
+              <p>Super-clear 108MP triple camera</p>
+              <button>Learn more</button>
+            </div>
+            <div className="logo_card_child">
+              <img src={Logochild} alt="" />
+              <h3>Redmi Note 13 5G</h3>
+              <p>Super-clear 108MP triple camera</p>
+              <button>Learn more</button>
+            </div>
+            <div className="logo_card_child">
+              <img src={Logochild} alt="" />
+              <h3>Redmi Note 13 5G</h3>
+              <p>Super-clear 108MP triple camera</p>
+              <button>Learn more</button>
+            </div>
           </div>
         </div>
       </section>
