@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+* {
+    text-decoration: none;
+}
+
+.hero {
+    /* position: fixed;
+    background: white;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 100; */
+}
+
+.header_a {
+    color: black;
+}
+
+.header_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+
+}
+
+.header_box_brend {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+
+}
+
+.header_box_name {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.header_micom {
+    width: 32px;
+    height: 32px;
+}
