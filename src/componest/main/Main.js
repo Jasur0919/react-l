@@ -32,6 +32,18 @@ import phoneS from '../../assents/images/hero-phone.webp'
               <p className='product_style_h4'>Gaming Essentials</p>
             </div>
 
+
+          </div>
+        </div>
+      </section>
+
+      <section className="xiaomi">
+        <div className="container">
+          <div className="xiaomi_box">
+            <div className="xiaomi_card"> 
+            
+            </div>
+
           </div>
         </div>
       </section>

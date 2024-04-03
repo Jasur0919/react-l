@@ -92,13 +92,23 @@
     font-weight: 300px;
     font-size: 16px;
     margin-top: 50px;
+    height: 40px;
+    line-height: 30px;
+    padding-bottom: 15px;
 }
 
 .product_style_h4:hover {
     color: rgb(219, 152, 37);
     font-weight: 500px;
     /* transform: scale(1.1); */
-    border-bottom: 3px solid rgb(219, 152, 37);
-    /* line-height: 40px; */
+    border-bottom: 2px solid rgb(219, 152, 37);
+    line-height: 30px;
 
 }
+
+
+
+
+
+
+
