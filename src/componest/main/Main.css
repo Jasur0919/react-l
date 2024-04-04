@@ -113,6 +113,13 @@
 
 .product_section {
     padding: 30px 30px;
+    transition: .3s linear !important;
+    overflow: hidden;
+}
+
+.product_section:hover img {
+    transform: scale(1.01);
+    overflow: hidden;
 }
 
 .product_section {
