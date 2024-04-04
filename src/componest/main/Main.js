@@ -3,6 +3,9 @@ import './Main.css'
 import phoneS from '../../assents/images/hero-phone.webp'
 import Redmi13 from '../../assents/images/phone_product.webp'
 import Logochild from '../../assents/images/child-phone-product.webp'
+import Watchredmi from '../../assents/images/wath-logo.webp'
+import Prologo from '../../assents/images/pro-logo.webp'
+import Redmipro from '../../assents/images/33pro-logo.webp'
 
  function Main() {
   return (
@@ -55,21 +58,21 @@ import Logochild from '../../assents/images/child-phone-product.webp'
               <button>Learn more</button>
             </div>
             <div className="logo_card_child">
-              <img src={Logochild} alt="" />
-              <h3>Redmi Note 13 5G</h3>
-              <p>Super-clear 108MP triple camera</p>
+              <img src={Watchredmi} alt="" />
+              <h3>Redmi Watch 4</h3>
+              <p>Ultra-large 1.97 " AMOLED display</p>
               <button>Learn more</button>
             </div>
             <div className="logo_card_child">
-              <img src={Logochild} alt="" />
-              <h3>Redmi Note 13 5G</h3>
-              <p>Super-clear 108MP triple camera</p>
+              <img src={Prologo} alt="" />
+              <h3>Redmi Buds  5 Pro </h3>
+              <p>High-resolution, HI-FI sound quality </p>
               <button>Learn more</button>
             </div>
             <div className="logo_card_child">
-              <img src={Logochild} alt="" />
-              <h3>Redmi Note 13 5G</h3>
-              <p>Super-clear 108MP triple camera</p>
+              <img src={Redmipro} alt="" />
+              <h3>Redmi Buds 5</h3>
+              <p>Al noise reduction for calls</p>
               <button>Learn more</button>
             </div>
           </div>
