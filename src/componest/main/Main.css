@@ -317,3 +317,52 @@
 .xiaomi_card:hover p {
     opacity: 0;
 }
+
+
+/*    I N T E R   */
+
+.inter {
+    background: rgb(243, 240, 240);
+
+}
+
+.inter_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inter_brend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    margin-top: 50px;
+    gap: 100px;
+    margin-bottom: 150px;
+}
+
+.inter_brend_card {
+    text-align: center;
+}
+
+.inter_brend_card p {
+    max-width: 240px;
+}
+
+.inter_brend_card svg {
+    fill: gray;
+}
+
+.inter_brend_card:hover svg {
+    fill: rgb(221, 131, 13);
+}
+.inter_brend_card:hover h2 {
+    color: rgb(221, 131, 13);
+}
+.inter_brend_card h2 {
+    margin: 20px 0;
+}
+.inter_brend_card:hover p {
+    color: rgb(221, 131, 13);
+}
+
