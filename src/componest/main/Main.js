@@ -6,6 +6,9 @@ import Logochild from '../../assents/images/child-phone-product.webp'
 import Watchredmi from '../../assents/images/wath-logo.webp'
 import Prologo from '../../assents/images/pro-logo.webp'
 import Redmipro from '../../assents/images/33pro-logo.webp'
+import XiaomiCar from '../../assents/images/xiaomi_car.webp'
+import Man from '../../assents/images/xiaomi_man.webp'
+import Mars from '../../assents/images/xiaomi_mars.webp'
 
  function Main() {
   return (
@@ -82,12 +85,37 @@ import Redmipro from '../../assents/images/33pro-logo.webp'
       <section className="xiaomi">
         <div className="container">
           <div className="xiaomi_box">
-            <div className="xiaomi_card"> 
+            <h1>Explore Xiaomi</h1>
             
-            </div>
 
           </div>
         </div>
+
+        <div className="xiaomi_cardc"> 
+              <div className="xiaomi_card">
+                <img src={XiaomiCar} alt="" />
+                <h3>Lorem ipsum dolor, sit amet</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <button>Learn more</button>
+
+              </div>
+              <div className="xiaomi_card">
+                <img src={Man} alt="" />
+                <h3>Lorem ipsum dolor, sit amet</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <button>Learn more</button>
+
+              </div>
+              <div className="xiaomi_card">
+                <img src={Mars} alt="" />
+                <h3>Lorem ipsum dolor, sit amet</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <button>Learn more</button>
+
+              </div>
+
+
+            </div>
       </section>
     </main>
   )
